@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class SSO extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'sso',
+        'name',
+    ];
 }
